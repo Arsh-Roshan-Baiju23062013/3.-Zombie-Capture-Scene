@@ -1,0 +1,11 @@
+Model Information:
+* title:	Minecraft - Forest
+* source:	https://sketchfab.com/3d-models/minecraft-forest-6a54404a57884c3f9e33842455a083d4
+* author:	rbuggie09 (https://sketchfab.com/rbuggie09)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Minecraft - Forest" (https://sketchfab.com/3d-models/minecraft-forest-6a54404a57884c3f9e33842455a083d4) by rbuggie09 (https://sketchfab.com/rbuggie09) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

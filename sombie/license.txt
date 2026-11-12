@@ -1,0 +1,11 @@
+Model Information:
+* title:	Minecraft - Zombie Villager
+* source:	https://sketchfab.com/3d-models/minecraft-zombie-villager-42cf2b7d1723461982ce2dded1018492
+* author:	Vincent Yanez (https://sketchfab.com/vinceyanez)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Minecraft - Zombie Villager" (https://sketchfab.com/3d-models/minecraft-zombie-villager-42cf2b7d1723461982ce2dded1018492) by Vincent Yanez (https://sketchfab.com/vinceyanez) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

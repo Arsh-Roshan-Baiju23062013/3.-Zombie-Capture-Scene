@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arsh's Movie</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://recast-api.donmccurdy.com/aframe-inspector-plugin-recast.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v4.2.0/dist/aframe-extras.min.js"></script>
+</head>
+
+<body class="a-body ">
+    <a-scene inspector-plugin-recast zombie-spawner="count: 5">
+        <a-assets>
+        <a-asset-item id="forest" src="forest/scene.gltf"></a-asset-item>
+        </a-assets>
+        <canvas class="a-canvas" data-aframe-canvas="true" width="750" height="375"></canvas>
+        <a-entity id="walkMesh" class="navmesh" gltf-model="walkmesh.glb" nav mesh visible="True"></a-entity>
+        <a-entity id="rig" movement-controls="controls: keyboard, touch; speed: 0.2; constrainToNavMesh: true;"
+            position="0 0 0">
+            <a-entity id="camera" camera look-controls wasd-controls="acceleration: 200" position="0 300 0"></a-entity>
+            <a-entity id="head" position="0 1.6 0" camera="userHeight: 1.6"
+                look-controls="pointerLockEnabled: true"></a-entity>
+        </a-entity>
+        <a-entity id="zombieSpawner" zombie-spawner="count: 5"></a-entity>  
+       
+
+        <!-- Map Environment -->
+
+        <a-sky color="#222"></a-sky>
+        <a-entity gltf-model="#forest" position="0 0 0" scale="100 100 100"></a-entity>
+        <!-- Player Camera -->
+        <a-entity id="playercamera" camera position="0 65 0" look-controls
+            wasd-controls="acceleration:100"></a-entity>
+    </a-scene>
+</body>
+
+
+</html>
